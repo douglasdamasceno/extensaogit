@@ -1,4 +1,4 @@
-public class FatorialMain {
+public class FatorialSoma {
 	public static void main(String[] args) {
 		String numero = JOptionPane.showInputDialog("Calcular fatorial do numero:" );
 		int num = Integer.parseInt(numero);		
@@ -6,6 +6,8 @@ public class FatorialMain {
 	}
 	//
 	private static long fatorialDoNumero(int num) {
+
+
 		int anterior = num+1;
 		long fatorialDesteNumero = 0;
 		
