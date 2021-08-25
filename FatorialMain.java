@@ -5,7 +5,7 @@ public class FatorialMain {
 		JOptionPane.showMessageDialog(null,"Fatorial de " + num + " é " + fatorialDoNumero(num));		
 	}
 	
-	private static long fatorialDoNumero(int num) {
+	private static long fatorialDaSomaaaa(int num) {
 		int anterior = num+1;
 		long fatorialDesteNumero = 0;
 		
