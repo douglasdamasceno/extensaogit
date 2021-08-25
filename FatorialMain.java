@@ -6,10 +6,10 @@ public class FatorialMain {
 	}
 	//
 	private static long fatorialDoNumero(int num) {
-		int anterior = num-1;
+		int anterior = num+1;
 		long fatorialDesteNumero = 0;
 		
-		if (num <= 1) return 1;
+		if (num <= 2) return 1;
 			else fatorialDesteNumero =  num * fatorialDoNumero(anterior); // Aqui está a recursividade no programa. O método "fatorialDoNumero" é chamado várias vezes dentro dele mesmo.
 		
 		return fatorialDesteNumero;
