@@ -1,0 +1,15 @@
+**/logs
+
+*.log
+
+/pastaraiz
+/debug.log
+
+debug:.log
+
+debug[a-z].log
+
+logs/
+
+
+logs
